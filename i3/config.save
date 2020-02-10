@@ -196,7 +196,7 @@ bar {
         statusline #dddddd
         separator #333333
 
-        focused_workspace  #333333 #333333 #ffffff
+        focused_workspace  #d05b5a #d05b5a #ffffff
         active_workspace   #333333 #333333 #ffffff
         inactive_workspace #333333 #333333 #888888
         urgent_workspace   #2f343a #900000 #ffffff
@@ -204,5 +204,4 @@ bar {
     }
 }
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/traintracks.jpg
-exec_always --no-startup-id xinput set-prop 11 144 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+feh --bg-fill ~/Pictures/unsplash.jpg
