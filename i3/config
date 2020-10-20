@@ -166,6 +166,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+F1 exec /usr/bin/firefox
 bindsym $mod+Shift+F2 exec /usr/bin/firefox -private-window
 bindsym $mod+Shift+F3 exec /usr/bin/nautilus
+bindsym Print exec gnome-screenshot -i
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec playerctl volume +5% #increase sound volume
